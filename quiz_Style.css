@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui;
+    border-radius: 10px;
+}
+body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS23E63s9GbOWiFr0rtBhJIc4dKvrhAN_gCp4t9CuCbQ__am9nYOoaKAPvQk8SXnDjanaQ&usqp=CAU);
+    background-size: cover;
+}
+
+.signin-box {
+    display: grid;
+    gap: 15px;
+    padding: 25px 20vw;
+    margin-top: 35vh;
+    transition: transform 0.6s ease-out, opacity 0.2s ease-in;
+    opacity: 0.001;
+
+}
+
+.gmail-label,
+.submit {
+    font-size: larger;
+    font-weight: bolder;
+    padding: 10px 25px;
+    width: fit-content;
+    display: flex;
+    justify-self: center;
+}
+
+.gmail-input {
+    font-size: larger;
+    padding: 10px 20px;
+    font-weight: 500;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 80% 15%;
+    gap: 15px;
+    padding: 25px 10vw;
+    width: auto;
+    margin-top: 25vh;
+    transition: transform 0.6s ease-in;
+    display: none;
+}
+
+.question,
+.index,
+.op,
+.pop {
+    padding: 10px 20px;
+    width: auto;
+    border: 2px solid black;
+    font-size: larger;
+    background-color: rgb(222, 231, 243);
+    font-weight: 500;
+}
+.op:hover{
+    transform: translateY(-5px);
+    box-shadow: -2px 10px 5px black;
+    background-color: aquamarine;
+}
+.blur {
+    filter: blur(2px);
+}
+
+.pop {
+    width: 35vw;
+    padding: 40px;
+    line-height: 30px;
+    position: absolute;
+    left: 65vh;
+    top: 25vh;
+    background-color: rgb(222, 231, 243);
+    box-shadow: 0px 10px 10px black;
+    display: none;
+    transform: scale(0.8);
+}
+
+.continue {
+    background-color: aquamarine;
+    padding: 10px;
+    font-size: large;
+    width: 100%;
+    font-weight: bold;
+    display: block;
+    margin: 10px 0;
+}
+
+.question {
+    font-size: x-large;
+    color: black;
+    font-weight: bold;
+}
